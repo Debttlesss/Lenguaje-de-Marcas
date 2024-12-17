@@ -40,6 +40,7 @@ nav {
     justify-content: space-between; 
     float: right;
     font-size: 20px;
+	width: 80%;
 }
 
 nav a {
