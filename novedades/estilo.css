@@ -159,7 +159,10 @@ footer {
   color: white;
   text-align:center ;
   padding: 20px 0;
+  position: relative;
+  margin-top: 20px;
 }
+
 .app-name {
   font-size: 24px;
   margin-bottom: 10px;
@@ -188,6 +191,9 @@ footer {
 .telegram {
   background-color: #0088CC; 
 }
+
 .social-buttons a:hover {
   opacity: 0.8; /* Esto queda guay  lo pongo en mas botones*/
+  transform: scale(1.1); 
+  transition: transform 0.4s;
 }
