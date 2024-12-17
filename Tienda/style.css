@@ -2,6 +2,7 @@
 
 body{
     background: #E0E4E5;
+	overflow-x: hidden;
 }
 
 /*   Fuente de letra   */
