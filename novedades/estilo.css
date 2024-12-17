@@ -92,6 +92,23 @@ p.header{
 
 /**** CSS DE LA PAGINA ****/
 
+h1{
+	color: #494B4D;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 15px 0px;
+	font-family: Titulo;
+
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #C7C7C7;
+	margin: 20px 0;
+	font-family: Titulo;
+}
+
 #news-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
