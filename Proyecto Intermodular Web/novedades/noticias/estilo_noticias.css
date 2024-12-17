@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'DM Sans', sans-serif;
+    text-align: justify;
+}
+
+nav {   
+    display: flex;
+    flex-direction: row;
+    background-color: #3A61C4;  
+    color: white;
+    overflow: hidden;
+    padding: 15px;
+    transition: transform 0.2s;
+    align-items: right; 
+    justify-content: space-between; 
+    float: right;
+    font-size: 20px;
+}
+
+nav a {
+    flex-direction: row;
+    color: white;
+    padding: 14px 110px;
+    text-decoration: none;
+    border-radius: 30px; 
+    transition: transform 0.5s ease, color 0.5s ease;
+    margin: 0 50px; 
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+    transform: scale(1.1); 
+}       
+
+
+
+.barra{
+    height: 150px;
+    background-color: #3A61C4;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 14px;
+    left: 75px;
+    border-radius: 15px;
+    width: 135px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);  
+}
+
+#lista{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .news-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .news-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .news-item h2 {
+    margin: 0.5rem;
+
+  }
+  
+  .news-item p {
+    margin: 0.5rem;
+    color: #555;
+  }
+  
+  .news-item:hover {
+    transform: scale(1.02);
+  }
+
+  #news-detail {
+    display: none;
+  }
+  
+  #detail-content {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+#news-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.news-item {
+    margin: 10px;
+    text-align: center; 
+    max-width: 300px;
+}
+
+.noticia {
+    text-align: center; 
+    margin: 20px; 
+}
+
+fieldset {
+    border: 2px solid #007BFF; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 600px; 
+}
+
+legend {
+    font-size: 1.5em; 
+    font-weight: bold; 
+    color: #007BFF; 
+}
+
+.imagen-noticia {
+    max-width: 100%; 
+    height: auto;  
+    margin: 20px 0; 
+}
+
+.boton-volver {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+}
