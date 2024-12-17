@@ -1,15 +1,19 @@
 /**** IGUAL PARA TODOS ****/
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 /*   Fuente de letra   */
 @font-face {
 	font-family: "Titulo";
-	src: url(../Supercell-magic-webfont.ttf);
+	src: url(Supercell-magic-webfont.ttf);
 }
 
 @font-face {
 	font-family: "Contenido_Pagina";
-	src: url(../MarshellRegular.woff);
+	src: url(MarshellRegular.woff);
 	font-weight: bold;
 }
 
@@ -19,7 +23,6 @@ body{
 	font-family: Contenido_Pagina;
     background: #E0E4E5;
 	overflow-x: hidden;
-
 }
 
 
