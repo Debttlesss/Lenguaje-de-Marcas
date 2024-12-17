@@ -8,12 +8,12 @@
 /*   Fuente de letra   */
 @font-face {
 	font-family: "Titulo";
-	src: url(../Supercell-magic-webfont.ttf);
+	src: url(Supercell-magic-webfont.ttf);
 }
 
 @font-face {
 	font-family: "Contenido_Pagina";
-	src: url(../MarshellRegular.woff);
+	src: url(MarshellRegular.woff);
 	font-weight: bold;
 }
 
@@ -724,11 +724,10 @@ section.container-categorias-home-slider .content-showmore-categorias-icon svg {
 }
 
 .thick-line-left-right>a:after,.thick-line-left-right>span:after {
+    left: 100%
+}
 
 
 
 
-
-
-
-
+/**** CSS DE LA PAGINA  tienda ****/ 
