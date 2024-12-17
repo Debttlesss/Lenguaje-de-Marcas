@@ -1,5 +1,10 @@
 /**** IGUAL PARA TODOS ****/
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 /*   Fuente de letra   */
 @font-face {
