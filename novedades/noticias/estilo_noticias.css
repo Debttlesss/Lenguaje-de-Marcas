@@ -1,10 +1,29 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    font-family: 'DM Sans', sans-serif;
-    text-align: justify;
+/**** IGUAL PARA TODOS ****/
+
+
+/*   Fuente de letra   */
+@font-face {
+	font-family: "Titulo";
+	src: url(../Supercell-magic-webfont.ttf);
 }
+
+@font-face {
+	font-family: "Contenido_Pagina";
+	src: url(../MarshellRegular.woff);
+	font-weight: bold;
+}
+
+
+/*   Body   */
+body{
+	font-family: Contenido_Pagina;
+    background: #E0E4E5;
+	overflow-x: hidden;
+
+}
+
+
+/*   Header   */
 
 nav {   
     display: flex;
@@ -23,21 +42,25 @@ nav {
 nav a {
     flex-direction: row;
     color: white;
-    padding: 14px 110px;
+    padding: 14px 50px;
     text-decoration: none;
     border-radius: 30px; 
     transition: transform 0.5s ease, color 0.5s ease;
-    margin: 0 50px; 
+    margin: 0 90px;
     font-weight: bold;
 }
 nav a:hover {
     background-color: #ffffff;
     color: black;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  
     transform: scale(1.1); 
 }       
 
-
+.guia{
+    background-color: #a0a0a0;
+    height: 155px;
+    width: 1920px;
+}
 
 .barra{
     height: 150px;
@@ -50,11 +73,19 @@ nav a:hover {
 .logo{
     position: absolute;
     top: 14px;
-    left: 75px;
+    left: 10px;
     border-radius: 15px;
     width: 135px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);  
 }
+
+p.header{
+    font-family: Titulo;
+}
+
+
+
+/**** CSS DE LA PAGINA ****/
 
 #lista{
     display: grid;
