@@ -1,3 +1,4 @@
+
 /**** IGUAL PARA TODOS ****/
 
 
@@ -84,70 +85,8 @@ p.header{
 }
 
 
-
 /**** CSS DE LA PAGINA ****/
 
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    font-family: 'DM Sans', sans-serif;
-    text-align: justify;}
-
-    nav.header {   
-      display: flex;
-      flex-direction: row;
-      background-color: #3A61C4;  
-      color: white;
-      overflow: hidden;
-      padding: 15px;
-      transition: transform 0.2s;
-      align-items: right; 
-      justify-content: space-between; 
-      float: right;
-      font-size: 20px;
-  }
-  
-  nav.header a {
-      flex-direction: row;
-      color: white;
-      padding: 14px 110px;
-      text-decoration: none;
-      border-radius: 30px; 
-      transition: transform 0.5s ease, color 0.5s ease;
-      margin: 0 50px; 
-      font-weight: bold;
-  }
-  nav.header a:hover {
-      background-color: #ffffff;
-      color: black;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  
-      transform: scale(1.1); 
-  }       
-  
-  .guia{
-      background-color: #a0a0a0;
-      height: 170px;
-      width: 1920px;
-  }
-  
-  .barra{
-      height: 150px;
-      background-color: #3A61C4;
-      align-items: center;
-      align-content: center;
-      position: relative;
-  }
-  
-  .logo{
-      position: absolute;
-      top: 14px;
-      left: 75px;
-      border-radius: 15px;
-      width: 135px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 1);  
-  }
 #news-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
