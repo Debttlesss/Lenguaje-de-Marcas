@@ -91,6 +91,22 @@ p.header{
 
 
 /**** CSS DE LA PAGINA  index****/
+
+/**** BIENVENIDO ****/
+.bienvenido {
+    background-color: #ffffff;
+    border: 2px solid #3A61C4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #3A61C4;
+    font-size: 2.5em;
+    margin: 0;
+}
 /**** carrousel ****/
 
 .carousel {
