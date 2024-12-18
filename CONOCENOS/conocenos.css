@@ -1,9 +1,5 @@
 /**** IGUAL PARA TODOS ****/
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 
 /*   Fuente de letra   */
 @font-face {
@@ -21,68 +17,78 @@
 /*   Body   */
 body{
 	font-family: Contenido_Pagina;
-  background: #E0E4E5;
+    	background: #E0E4E5;
 	overflow-x: hidden;
+	min-height: 100vh;
+
 }
 
 
 /*   Header   */
+
 nav {   
-  display: flex;
-  flex-direction: row;
-  background-color: #3A61C4;  
-  color: white;
-  overflow: hidden;
-  padding: 15px;
-  transition: transform 0.2s;
-  align-items: right; 
-  justify-content: space-between; 
-  float: right;
-  font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3A61C4;  
+    color: white;
+    overflow: hidden;
+    padding: 15px;
+    transition: transform 0.2s;
+    align-items: right; 
+    justify-content: space-between; 
+    float: right;
+    font-size: 20px;
 }
 
 nav a {
-  flex-direction: row;
-  color: white;
-  padding: 14px 85px;
-  text-decoration: none;
-  border-radius: 30px; 
-  transition: transform 0.5s ease, color 0.5s ease;
-  margin: 0 50px; 
-  font-weight: bold;
+    flex-direction: row;
+    color: white;
+    padding: 14px 50px;
+    text-decoration: none;
+    border-radius: 30px; 
+    transition: transform 0.5s ease, color 0.5s ease;
+    margin: 0 90px;
+    font-weight: bold;
 }
 nav a:hover {
-  background-color: #ffffff;
-  color: black;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  
-  transform: scale(1.1); 
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  
+    transform: scale(1.1); 
 }       
 
 .guia{
-  background-color: #a0a0a0;
-  height: 155px;
-  width: 1920px;
+    background-color: #a0a0a0;
+    height: 155px;
+    width: 1920px;
+	margin-bottom: 30px;
 }
 
 .barra{
-  height: 150px;
-  background-color: #3A61C4;
-  align-items: center;
-  align-content: center;
-  position: relative;
+    height: 150px;
+    background-color: #3A61C4;
+    align-items: center;
+    align-content: center;
+    position: relative;
 }
 
 .logo{
-  position: absolute;
-  top: 14px;
-  left: 10px;
-  border-radius: 15px;
-  width: 135px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 1);  
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    border-radius: 15px;
+    width: 135px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);  
 }
 
 p.header{
     font-family: Titulo;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /**** CSS DE LA PAGINA ****/
