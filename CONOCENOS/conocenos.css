@@ -21,66 +21,64 @@
 /*   Body   */
 body{
 	font-family: Contenido_Pagina;
-    background: #E0E4E5;
+  background: #E0E4E5;
 	overflow-x: hidden;
 }
 
 
 /*   Header   */
-
 nav {   
-    display: flex;
-    flex-direction: row;
-    background-color: #3A61C4;  
-    color: white;
-    overflow: hidden;
-    padding: 15px;
-    transition: transform 0.2s;
-    align-items: right; 
-    justify-content: space-between; 
-    float: right;
-    font-size: 20px;
-	width: 80%;
+  display: flex;
+  flex-direction: row;
+  background-color: #3A61C4;  
+  color: white;
+  overflow: hidden;
+  padding: 15px;
+  transition: transform 0.2s;
+  align-items: right; 
+  justify-content: space-between; 
+  float: right;
+  font-size: 20px;
 }
 
 nav a {
-    flex-direction: row;
-    color: white;
-    padding: 14px 50px;
-    text-decoration: none;
-    border-radius: 30px; 
-    transition: transform 0.5s ease, color 0.5s ease;
-    margin: 0 90px;
-    font-weight: bold;
+  flex-direction: row;
+  color: white;
+  padding: 14px 85px;
+  text-decoration: none;
+  border-radius: 30px; 
+  transition: transform 0.5s ease, color 0.5s ease;
+  margin: 0 50px; 
+  font-weight: bold;
 }
 nav a:hover {
-    background-color: #ffffff;
-    color: black;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  
-    transform: scale(1.1); 
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  
+  transform: scale(1.1); 
 }       
 
 .guia{
-    background-color: #a0a0a0;
-    height: 155px;
-    width: 1920px;
+  background-color: #a0a0a0;
+  height: 155px;
+  width: 1920px;
 }
 
 .barra{
-    height: 150px;
-    background-color: #3A61C4;
-    align-items: center;
-    align-content: center;
-    position: relative;
+  height: 150px;
+  background-color: #3A61C4;
+  align-items: center;
+  align-content: center;
+  position: relative;
 }
 
 .logo{
-    position: absolute;
-    top: 14px;
-    left: 10px;
-    border-radius: 15px;
-    width: 135px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);  
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  border-radius: 15px;
+  width: 135px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);  
 }
 
 p.header{
@@ -89,70 +87,13 @@ p.header{
 
 /**** CSS DE LA PAGINA ****/
 
-
-
-
-
 body{
     height: 100%; 
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    text-align: justify;
   }
-
-nav {   
-    display: flex;
-    flex-direction: row;
-    background-color: #3A61C4;  
-    color: white;
-    overflow: hidden;
-    padding: 15px;
-    transition: transform 0.2s;
-    align-items: right; 
-    justify-content: space-between; 
-    float: right;
-    font-size: 20px;
-}
-
-nav a {
-    flex-direction: row;
-    color: white;
-    padding: 14px 110px;
-    text-decoration: none;
-    border-radius: 30px; 
-    transition: transform 0.5s ease, color 0.5s ease;
-    margin: 0 50px; 
-    font-weight: bold;
-}
-nav a:hover {
-    background-color: #ffffff;
-    color: black;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  
-    transform: scale(1.1); 
-}       
-
-.guia{
-    background-color: #a0a0a0;
-    height: 170px;
-    width: 1920px;
-}
-
-.barra{
-    height: 150px;
-    background-color: #3A61C4;
-    align-items: center;
-    align-content: center;
-    position: relative;
-}
-
-.logo{
-    position: absolute;
-    top: 14px;
-    left: 75px;
-    border-radius: 15px;
-    width: 135px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);  
-}
 
 
 .toggle-cont {
@@ -167,6 +108,8 @@ nav a:hover {
     border: 1px solid black;
     padding: 50px 40px 40px 40px;
     border-radius: 25px;
+    margin-top: 40px;
+    
  }
 
  
@@ -200,13 +143,14 @@ nav a:hover {
     padding: 10px;
     background-color: #3a61c444;
     border: 1px solid #ddd;
-    border-radius: 15px;
+    border-radius: 18px;
     font-weight: normal;
  }
 
  .info p{
 font-size: 18px;
 text-justify: auto;
+padding-bottom: 15px;
  }
 
 
@@ -228,13 +172,14 @@ text-justify: auto;
 
  h2{
     margin: 0;
-    color: #000000;
+    color: #ffffff;
     font-style: bold;
     background-color: #3A61C4;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);  
     margin-bottom: 30px;
-    padding: 5px;
+    padding: 10px;
+    font-family: Titulo;
  }
 
  /*LINEA DEL TIEMPO*/
@@ -382,7 +327,7 @@ text-justify: auto;
    margin: 0 0 10px 0;
    font-size: 18px;
    font-weight: normal;
-   color: #000000;
+   color: #ffffff;
  }
  
  .container .content p {
@@ -390,6 +335,7 @@ text-justify: auto;
    font-size: 16px;
    line-height: 22px;
    color: #000000;
+   text-justify: auto;
  }
  
  @media (max-width: 767.98px) {
