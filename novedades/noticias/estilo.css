@@ -21,9 +21,11 @@
 
 /*   Body   */
 body{
+	text-align: justify;
 	font-family: Contenido_Pagina;
-    background: #E0E4E5;
+   	background: #E0E4E5;
 	overflow-x: hidden;
+	
 
 }
 
