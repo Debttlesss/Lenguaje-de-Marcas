@@ -199,6 +199,11 @@ section.container-categorias-home .content-categorias .categoria-text p {
     text-decoration: none;
 }
 
+a.categoria {
+    text-decoration: none; 
+    color: inherit; 
+}
+
 section.container-categorias-home .content-categorias .categoria-img {
     width: 150px;
     height: 150px;
