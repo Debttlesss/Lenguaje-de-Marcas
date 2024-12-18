@@ -136,6 +136,7 @@ p.header{
     cursor: pointer;
     transition: transform 0.2s ease;
 	text-decoration: none;
+	  color: #413f3f;
   }
   
   .news-item img {
