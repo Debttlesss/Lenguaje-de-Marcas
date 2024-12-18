@@ -26,6 +26,8 @@
 
 
 <!-- CONTENIDO -->
+
+
 <div class="contenedor">
 
     <div class="informacion_adicional">
@@ -36,7 +38,7 @@
           <li><strong>Telefono de contacto: </strong><a href="tel:987162541">987162541</li></a>
           <li><strong>Direccion:</strong> Calle Colon Nº50 , 46004</li>
         </ul>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.997985834963!2d-0.3740847236143246!3d39.46937421275242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6049e6a8230f43%3A0x78fc7d3753938d79!2sCl.%20de%20Col%C3%B3n%2C%2050%2C%20Ensanche%2C%2046004%20Valencia!5e0!3m2!1ses!2ses!4v1734402962402!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="maps1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.997985834963!2d-0.3740847236143246!3d39.46937421275242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6049e6a8230f43%3A0x78fc7d3753938d79!2sCl.%20de%20Col%C3%B3n%2C%2050%2C%20Ensanche%2C%2046004%20Valencia!5e0!3m2!1ses!2ses!4v1734402962402!5m2!1ses!2ses" width="760" height="770" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
       
@@ -50,40 +52,40 @@
           <form action="submeter-formulario.php" method="post">       
 
             
-                <p>
+                <p class="fontform">
                   <label for="nombre" class="colocar_nombre">Nombre
                     <span class="obligatorio">*</span>
                   </label>
                     <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
                 </p>
               
-                <p>
+                <p class="fontform">
                   <label for="email" class="colocar_email">Email
                     <span class="obligatorio">*</span>
                   </label>
                     <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
                 </p>
             
-                <p>
+                <p class="fontform">
                   <label for="telefone" class="colocar_telefono">Teléfono
                   </label>
                     <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
                 </p>    
               
-                <p>
+                <p class="fontform">
                   <label for="website" class="colocar_website">Sitio web
                   </label>
                     <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
                 </p>    
               
-                <p>
+                <p class="fontform">
                   <label for="asunto" class="colocar_asunto">Asunto
                     <span class="obligatorio">*</span>
                   </label>
                     <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
                 </p>    
               
-                <p>
+                <p class="fontform">
                   <label for="mensaje" class="colocar_mensaje">Mensaje
                     <span class="obligatorio">*</span>
                   </label>                     
@@ -104,16 +106,19 @@
 
 </div>
 </div>
+
+<footer>
+  <div class="app-name">E-Korp</div>
+  <p>&copy; 2023 E-Korp. Todos los derechos reservados.</p>
+  <div class="social-buttons">
+      <a href="https://twitter.com" target="_blank" class="twitter">Twitter</a>
+      <a href="https://instagram.com" target="_blank" class="instagram">Instagram</a>
+      <a href="https://wa.me/1234567890" target="_blank" class="whatsapp">WhatsApp</a>
+      <a href="https://t.me/tu_usuario" target="_blank" class="telegram">Telegram</a>
+  </div>
+  </footer>
+  
 </body>
 </html>
 
 
-
-
-
-
-
-
-
-</body>
-</html>
